@@ -6,6 +6,7 @@ public class fibonacciNumber {
         Scanner input=new Scanner(System.in);
         int num=input.nextInt();
         System.out.println(fibo(num));
+        input.close();
     }
     static int fibo(int n){
         if(n==0){
@@ -18,5 +19,4 @@ public class fibonacciNumber {
             return fibo(n-1)+fibo(n-2);
         }
     }
-    input.close();
 }
