@@ -18,4 +18,5 @@ public class fibonacciNumber {
             return fibo(n-1)+fibo(n-2);
         }
     }
+    input.close();
 }
